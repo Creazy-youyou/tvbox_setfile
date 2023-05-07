@@ -11,3 +11,9 @@ CCTV1,http://39.135.138.58:18890/PLTV/88888888/224/3221226225/index.m3u8
 CCTV1,http://39.135.138.58:18890/PLTV/88888888/224/3221225918/index.m3u8
 CCTV1,http://223.95.111.98:5555/newlive/live/hls/1/live.m3u8
 CCTV1,http://1.195.111.251:11190/tsfile/live/0001_1.m3u8
+#genre#,CCTV1http://58.205.220.58/tlivecloud-ipv6.ysp.cctv.cn/ysp/2000210103.m3u8cntv-cctv1
+cntv-cctv1,CCTV1http://39.135.138.58:18890/PLTV/88888888/224/3221225618/index.m3u8cntv-cctv1
+cntv-cctv1,CCTV1http://39.135.138.58:18890/PLTV/88888888/224/3221225642/index.m3u8cntv-cctv1
+cntv-cctv1,CCTV1http://39.135.138.58:18890/PLTV/88888888/224/3221225762/index.m3u8cntv-cctv1
+cntv-cctv1,CCTV1http://39.135.138.58:18890/PLTV/88888888/224/3221226225/index.m3u8cntv-cctv1
+cntv-cctv1,CCTV1http://223.95.111.98:5555/newlive/live/hls/1/live.m3u8cntv-cctv1
