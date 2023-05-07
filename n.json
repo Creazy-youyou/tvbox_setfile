@@ -3,7 +3,7 @@
   "wallpaper":"https://picsum.photos/1280/720/?blur=10",
   "spider":"https://raw.liucn.cc/box/sub/jar/A235.jar;md5;7C7281A78781BD352DFE9CA3E3293999",
 "lives": [{"group": "redirect","epg":"https://epg.112114.xyz/pp.xml","channels": [{"name": "redirect","urls": [
-"proxy://do=live&type=m3u8&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NyZWF6eS15b3V5b3UvdHZib3hfc2V0ZmlsZS9tYWluL1RWLm0zdTg="
+"proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NyZWF6eS15b3V5b3UvdHZib3hfc2V0ZmlsZS9tYWluL1RWLm0zdTg="
 ]}]}],
 "sites": [
 {"key":"csp_LiteApple","name":"🍎小苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1}, 
