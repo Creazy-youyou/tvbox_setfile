@@ -5,7 +5,7 @@
 {
   "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;8E5F048383B35728C4F1BB21C708C0C7",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-  "lives":[{"name":"live","type":0,"url":"https://raw.githubusercontent.com/Creazy-youyou/tvbox_setfile/main/js/live.txt","playerType":1,"ua":"okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+  "lives":[{"name":"live","type":0,"url":"https://m3u.ibert.me/txt/o_all.txt","playerType":1,"ua":"okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "sites":[
 		{"key": "豆瓣","name": "🌕豆瓣热播","type": 3,"api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 		{"key": "玩偶哥哥","name": "👽玩偶哥哥┃已修复","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"},
