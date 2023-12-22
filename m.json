@@ -1,11 +1,12 @@
 //以下内容为互联网收集，只为自用……
-{
-  "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;8E5F048383B35728C4F1BB21C708C0C7",
-	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 //"lives":[{"name":"live","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","playerType":1,"ua":"okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 //"lives": [{"group": "redirect","epg":"http://epg.112114.xyz/","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NyZWF6eS15b3V5b3UvdHZib3hfc2V0ZmlsZS9tYWluL1RWLnR4dA=="]}]}],
-  "lives":[{"name":"live","type":0,"url":"https://raw.githubusercontent.com/Creazy-youyou/tvbox_setfile/main/live.txt","playerType":1,"ua":"okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
-	"sites":[
+
+{
+  "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;8E5F048383B35728C4F1BB21C708C0C7",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "lives":[{"name":"live","type":0,"url":"https://raw.githubusercontent.com/Creazy-youyou/tvbox_setfile/main/js/live.txt","playerType":1,"ua":"okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+  "sites":[
 		{"key": "豆瓣","name": "🌕豆瓣热播","type": 3,"api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 		{"key": "玩偶哥哥","name": "👽玩偶哥哥┃已修复","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"},
 		{"key": "dr_nangua","name": "🎃┃南瓜┃影视","type": 3,"api": "./js/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./libs/nangua.js"},
@@ -102,10 +103,6 @@
     {"name": "dy","hosts": [  "douyin.com"],"regex": [  "is_play_url="] },
     {"name": "nm","hosts": [  "toutiaovod.com"],"regex": [  "video/tos/cn"] },
     {"name": "cl","hosts": [  "magnet"],"regex": [  "最 新",  "直 播",  "更 新"]
-    }
-  ],
-  "lives": [
-    {"name": "live","type": 0,"url": "./js/live.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
    "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},{"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
