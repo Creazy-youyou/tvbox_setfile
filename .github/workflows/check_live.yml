@@ -1,0 +1,29 @@
+name: 检查直播源
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 UTC 02:00 自动跑
+  workflow_dispatch:      # 也支持手动触发
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 安装依赖
+        run: pip install --quiet requests
+
+      - name: 检测并更新直播源
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/check_live.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: 每日直播源检测更新 $(date -u +'%Y-%m-%d')"
+          git push
