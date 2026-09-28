@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="BBCWorldNews" tvg-name="BBC World News" group-title="国际新闻",BBC World News
+https://xemzi.short.gy/1000015
+#EXTINF:-1 tvg-id="CNNInternational" tvg-name="CNN International" group-title="国际新闻",CNN International
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish" tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="SkyNews" tvg-name="Sky News" group-title="国际新闻",Sky News
+https://xemzi.short.gy/1000018
+#EXTINF:-1 tvg-id="France24English" tvg-name="France 24 English" group-title="国际新闻",France 24 English
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="DWEnglish" tvg-name="DW English" group-title="国际新闻",DW English
+https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsEnglish" tvg-name="Euronews English" group-title="国际新闻",Euronews English
+https://dash4.antik.sk/live/test_euronews/playlist.m3u8
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA International" group-title="国际新闻",CNA International
+https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabia" tvg-name="Sky News Arabia" group-title="地区新闻",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-id="ABCNews" tvg-name="ABC News" group-title="地区新闻",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive" tvg-name="ABC News Live" group-title="地区新闻",ABC News Live
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World-Japan" group-title="地区新闻",NHK World-Japan
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
+#EXTINF:-1 tvg-id="TRTWorld" tvg-name="TRT World" group-title="地区新闻",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="SkyNewsAU" tvg-name="Sky News Australia" group-title="地区新闻",Sky News Australia
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
