@@ -1,0 +1,11 @@
+{
+  "lives": [
+    {
+      "name": "国外新闻",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Creazy-youyou/tvbox_setfile@main/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    }
+  ]
+}
