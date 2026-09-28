@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""直播源健康检测：检查 live.txt / live.m3u / tvbox.json 中所有地址，
-失效的源会在输出中标注，并在 README 可用性报告中更新。"""
+"""直播源健康检测：检查 live.txt 中所有地址可用性"""
 import re
 import requests
 import json
@@ -19,20 +18,21 @@ def check_url(url, timeout=12):
 
 def main():
     results = {}
-    # 从 live.txt 读 URL
     with open("live.txt", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
+            # TVBox格式: 频道名,地址 （跳过分组头 分组名,#genre#）
             parts = line.split(",")
-            if len(parts) >= 3:
-                name, url = parts[0], parts[-1]
+            if len(parts) >= 2:
+                name, url = parts[0], parts[-1].strip()
+                if url == "#genre#":
+                    continue  # 跳过分组头
                 ok, code = check_url(url)
                 results[name] = (ok, code)
                 print(f"{'✅' if ok else '❌'} {name} ({code})")
 
-    # 生成状态报告附加到 README 顶部说明（可选）
     good = sum(1 for v in results.values() if v[0])
     total = len(results)
     print(f"\n可用 {good}/{total}")
