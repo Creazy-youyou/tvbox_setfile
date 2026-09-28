@@ -1,8 +1,3 @@
-﻿# 国外新闻直播源 - TVBox格式
-# 格式: 分组名,#genre# 然后每行 频道名,地址
-# 仅供个人学习测试，请于24小时内删除
-# 更新日期: 2026-09-28
-
 国际新闻,#genre#
 BBC World News,https://xemzi.short.gy/1000015
 CNN International,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -12,7 +7,6 @@ France 24 English,https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/mas
 DW English,https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
 Euronews English,https://dash4.antik.sk/live/test_euronews/playlist.m3u8
 CNA International,https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
-
 地区新闻,#genre#
 Sky News Arabia,https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
 ABC News,https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
